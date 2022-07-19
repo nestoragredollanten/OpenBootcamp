@@ -58,6 +58,13 @@ public class Main {
             default:
                 System.out.println("No es una estacion");
         }
+
+        Persona persona = new Persona();
+        persona.setEdad("27");
+        persona.setNombre("Andres");
+        persona.setTelefono("3344556677");
+
+        System.out.println(persona.getEdad() + persona.getNombre() + persona.getTelefono());
     }
 
     public static int sumar(int a, int b, int c) {
